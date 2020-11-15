@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Test Task">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Index :: T-Task</title>
+  </head>
+  <body class="faded" id="top">
+    <svg style="display : none;">
+      <symbol id="logo" viewBox="0 0 78 52">
+        <g><path d="M63.0559 15.8815L54.2119 15.8947L27.8012 40.7922H10.0354V23.4593L34.2348 0.848633L17.993 0.899213L0 17.6625V51.1511H34.0283L63.0418 23.5687L63.0559 15.8815Z" fill="white"/>
+<path d="M43.9721 0.848633L14.9586 28.4318L14.9453 36.1182L23.7884 36.1049L50.1991 11.2075H67.9649V28.5404L43.7656 51.1511L60.0074 51.1013L78.0004 34.338V0.848633H43.9721Z" fill="white"/>
+        </g>
+      </symbol>
+      <symbol id="heart" viewBox="0 0 46 42">
+        <g><path d="M33.7812 0.695312C31.2851 0.695312 28.9966 1.4863 26.9794 3.04634C25.0456 4.54197 23.758 6.44693 23 7.83214C22.242 6.44684 20.9544 4.54197 19.0206 3.04634C17.0034 1.4863 14.7149 0.695312 12.2188 0.695312C5.25298 0.695312 0 6.39293 0 13.9485C0 22.1112 6.55347 27.696 16.4746 36.1505C18.1593 37.5863 20.0689 39.2138 22.0538 40.9494C22.3154 41.1785 22.6514 41.3047 23 41.3047C23.3486 41.3047 23.6846 41.1785 23.9462 40.9495C25.9312 39.2136 27.8408 37.5862 29.5265 36.1496C39.4465 27.696 46 22.1112 46 13.9485C46 6.39293 40.747 0.695312 33.7812 0.695312Z" fill="white" /></g>
+      </symbol>
+      <symbol id="arrow" viewBox="0 0 18 12">
+        <g><path d="M8.29764 0.999386L0.287559 9.00962C0.102145 9.19488 -8.06437e-08 9.4422 -6.91167e-08 9.7059C-5.75898e-08 9.96961 0.102145 10.2169 0.287559 10.4022L0.87731 10.9921C1.2616 11.3759 1.88618 11.3759 2.26988 10.9921L8.99627 4.2657L15.7301 10.9996C15.9155 11.1848 16.1627 11.2871 16.4263 11.2871C16.6901 11.2871 16.9373 11.1848 17.1228 10.9995L17.7124 10.4097C17.8979 10.2242 18 9.97707 18 9.71337C18 9.44966 17.8979 9.20234 17.7124 9.01708L9.69504 0.999386C9.50904 0.813681 9.26071 0.711682 8.99671 0.712267C8.73169 0.711682 8.48349 0.813681 8.29764 0.999386Z"/></g>
+      </symbol>
+    </svg>
+    <header class="header">
+      <div class="header__bg"><img class="header__img" src="img/bgTop.png" alt="Cat Background"></div>
+      <div class="header__inner container">
+        <div class="header__row">
+          <div class="header__row-left">
+            <div class="logo">
+              <svg class="svgsprites _icon">
+                <use xlink:href="#logo"></use>
+              </svg>
+            </div>
+            <button class="burger js-burger"><span class="burger__item"></span></button>
+            <nav class="nav js-nav">
+              <ul class="nav__list">
+                <li class="nav__item _first"><a class="nav__link" href="/">Main</a></li>
+                <li class="nav__item _second"><a class="nav__link" href="/">Gallery</a></li>
+                <li class="nav__item _third"><a class="nav__link" href="/">News</a></li>
+                <li class="nav__item"><a class="nav__link" href="/">Profile</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__tel"><a class="header__tel-link" href="tel:+544349000000">
+               &#43;544 3490 00000</a><span class="header__tel-span">Звони скорее!</span></div>
+        </div>
+        <div class="header__title">Найдено 349 котов</div>
+      </div>
+    </header>
+    <div class="layout container">
+      <section class="products">
+        <div class="sorting">
+          <h4 class="sorting__text">Сортировать по <span class="sorting__text-span">&#58;</span></h4>
+          <div class="sorting__price">
+            <div class="sorting__price-panel js-sort-btn">
+              <p class="sorting__price-text">Цене</p>
+              <button class="sorting__price-button">
+                <svg class="svgsprites _icon">
+                  <use xlink:href="#arrow"></use>
+                </svg>
+              </button>
+            </div>
+            <ul class="sorting__price-list js-sort-list faded">
+              <li class="sorting__price-numb js-price">Возрастание</li>
+              <li class="sorting__price-numb js-price">Убывание</li>
+              <li class="sorting__price-numb js-price">Рейтинг</li>
+            </ul>
+          </div>
+          <div class="sorting__age">
+            <div class="sorting__age-panel js-sort-btn">
+              <p class="sorting__age-text">Возрасту</p>
+              <button class="sorting__age-button">
+                <svg class="svgsprites _icon">
+                  <use xlink:href="#arrow"></use>
+                </svg>
+              </button>
+            </div>
+            <ul class="sorting__age-list js-sort-list faded">
+              <li class="sorting__age-numb js-age">Возрастание</li>
+              <li class="sorting__age-numb js-age">Убывание</li>
+              <li class="sorting__age-numb js-age">Default</li>
+            </ul>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="cards__inner js-cards__inner">
+            <div class="card" data-price="4" data-rating="6" data-age="10"><span class="card__percent">&#45;40&#37;</span>
+              <button class="card__like js-card__like">
+                <svg class="svgsprites _icon js-like">
+                  <use xlink:href="#heart"></use>
+                </svg>
+              </button><img class="card__img" src="img/cats/cat1.png" alt="Cat"/>
+              <div class="card__content">
+                <h4 class="card__title">Кот полосатый</h4>
+                <div class="card__content-row">
+                  <div class="card__content-col _first">
+                    <p class="card__content-text">Коричневый окрас</p>
+                  </div>
+                  <div class="card__content-col _second"> <span class="card__content-moth">2 мес.</span><span class="card__content-age">Возраст</span></div>
+                  <div class="card__content-col _last"><span class="card__content-numb">4</span><span class="card__content-paws">Кол-во лап</span></div>
+                </div>
+                <p class="card__price">30 000 руб.</p>
+              </div>
+              <button class="card__button">Купить</button>
+            </div>
+            <div class="card" data-price="6" data-rating="5" data-age="12">
+              <button class="card__like js-card__like">
+                <svg class="svgsprites _icon js-like">
+                  <use xlink:href="#heart"></use>
+                </svg>
+              </button><img class="card__img" src="img/cats/cat2.png" alt="Cat"/>
+              <div class="card__content">
+                <h4 class="card__title">Кот полосатый</h4>
+                <div class="card__content-row">
+                  <div class="card__content-col _first">
+                    <p class="card__content-text">Коричневый окрас</p>
+                  </div>
+                  <div class="card__content-col _second"> <span class="card__content-moth">2 мес.</span><span class="card__content-age">Возраст</span></div>
+                  <div class="card__content-col _last"><span class="card__content-numb">4</span><span class="card__content-paws">Кол-во лап</span></div>
+                </div>
+                <p class="card__price">40 000 руб.</p>
+              </div>
+              <button class="card__button _sell">Продан</button>
+            </div>
+            <div class="card" data-price="2" data-rating="4" data-age="9">
+              <button class="card__like js-card__like">
+                <svg class="svgsprites _icon js-like">
+                  <use xlink:href="#heart"></use>
+                </svg>
+              </button><img class="card__img" src="img/cats/cat3.png" alt="Cat"/>
+              <div class="card__content">
+                <h4 class="card__title">Кот полосатый</h4>
+                <div class="card__content-row">
+                  <div class="card__content-col _first">
+                    <p class="card__content-text">Коричневый окрас</p>
+                  </div>
+                  <div class="card__content-col _second"> <span class="card__content-moth">2 мес.</span><span class="card__content-age">Возраст</span></div>
+                  <div class="card__content-col _last"><span class="card__content-numb">4</span><span class="card__content-paws">Кол-во лап</span></div>
+                </div>
+                <p class="card__price">20 000 руб.</p>
+              </div>
+              <button class="card__button">Купить</button>
+            </div>
+            <div class="card" data-price="3" data-rating="3" data-age="5">
+              <button class="card__like js-card__like">
+                <svg class="svgsprites _icon js-like">
+                  <use xlink:href="#heart"></use>
+                </svg>
+              </button><img class="card__img" src="img/cats/cat1.png" alt="Cat"/>
+              <div class="card__content">
+                <h4 class="card__title">Кот полосатый</h4>
+                <div class="card__content-row">
+                  <div class="card__content-col _first">
+                    <p class="card__content-text">Коричневый окрас</p>
+                  </div>
+                  <div class="card__content-col _second"> <span class="card__content-moth">2 мес.</span><span class="card__content-age">Возраст</span></div>
+                  <div class="card__content-col _last"><span class="card__content-numb">4</span><span class="card__content-paws">Кол-во лап</span></div>
+                </div>
+                <p class="card__price">25 000 руб.</p>
+              </div>
+              <button class="card__button">Купить</button>
+            </div>
+            <div class="card" data-price="5" data-rating="2" data-age="4"><span class="card__percent">&#45;40&#37;</span>
+              <button class="card__like js-card__like">
+                <svg class="svgsprites _icon js-like">
+                  <use xlink:href="#heart"></use>
+                </svg>
+              </button><img class="card__img" src="img/cats/cat3.png" alt="Cat"/>
+              <div class="card__content">
+                <h4 class="card__title">Кот полосатый</h4>
+                <div class="card__content-row">
+                  <div class="card__content-col _first">
+                    <p class="card__content-text">Коричневый окрас</p>
+                  </div>
+                  <div class="card__content-col _second"> <span class="card__content-moth">2 мес.</span><span class="card__content-age">Возраст</span></div>
+                  <div class="card__content-col _last"><span class="card__content-numb">4</span><span class="card__content-paws">Кол-во лап</span></div>
+                </div>
+                <p class="card__price">30 000 руб.</p>
+              </div>
+              <button class="card__button">Купить</button>
+            </div>
+            <div class="card" data-price="1" data-rating="1" data-age="7">
+              <button class="card__like js-card__like">
+                <svg class="svgsprites _icon js-like">
+                  <use xlink:href="#heart"></use>
+                </svg>
+              </button><img class="card__img" src="img/cats/cat2.png" alt="Cat"/>
+              <div class="card__content">
+                <h4 class="card__title">Кот полосатый</h4>
+                <div class="card__content-row">
+                  <div class="card__content-col _first">
+                    <p class="card__content-text">Коричневый окрас</p>
+                  </div>
+                  <div class="card__content-col _second"> <span class="card__content-moth">2 мес.</span><span class="card__content-age">Возраст</span></div>
+                  <div class="card__content-col _last"><span class="card__content-numb">4</span><span class="card__content-paws">Кол-во лап</span></div>
+                </div>
+                <p class="card__price">10 000 руб.</p>
+              </div>
+              <button class="card__button _sell">Продан</button>
+            </div>
+          </div>
+          <button class="cards__button">Показать еще 20</button>
+        </div>
+      </section>
+    </div>
+    <footer class="footer js-footer">
+      <div class="footer__inner container">
+        <div class="scroll-top"><a class="scroll-top__btn js-scroll-top" href="#top">
+            <svg class="svgsprites _icon">
+              <use xlink:href="#arrow"></use>
+            </svg></a></div>
+        <div class="footer__content">
+          <h3 class="footer__title">Успей купить!</h3>
+          <p class="footer__text">Подпишись и успей словить все акции</p>
+        </div>
+        <form class="form js-form">
+          <div class="form__box">
+            <input class="form__input js-form-email" type="email" name="email" placeholder="Email" id="email">
+            <button class="form__submit" type="sumbit">Подписаться</button>
+          </div>
+          <div class="form__checked">
+            <input class="form__checkbox" type="checkbox" id="checkbox">
+            <label class="form__label" for="checkbox"></label>
+            <p class="form__checked-text">Подписаться на новости</p>
+          </div>
+        </form>
+      </div>
+    </footer>
+    <div class="favorites faded js-favorites"></div>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js"></script>
+  </body>
+</html>
